@@ -1,15 +1,14 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "something",
+  "description": "A simple API project",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test2": "nodemon script.ts",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.2",
@@ -24,5 +23,16 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "helmet": "^7.1.0"
-  }
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/api/issues"
+  },
+  "homepage": "https://github.com/yourusername/api#readme"
 }
